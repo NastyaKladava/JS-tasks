@@ -1,0 +1,29 @@
+body {
+    color: antiquewhite;
+    background-color:antiquewhite;
+}
+.backdrop {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .8);
+
+    &.hidden {
+        display: none;
+    }
+    
+    .modal-window {
+        position: absolute;
+        top: 40%;
+        left: 25%;
+        width: 50%;
+        height: 400px;
+        background-color: white;
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
