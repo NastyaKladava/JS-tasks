@@ -1,0 +1,14 @@
+input {
+  width: 150px;
+  height: 15px;
+  border: solid 2px black;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 150px;
+  display: none;
+}
+/*# sourceMappingURL=main.css.map */
