@@ -18,10 +18,10 @@ function showDropContent(){
     'Austrelia'
   ];
 
-  for (let i = 0; i < arr.length; i++) {
+  /*for (let i = 0; i < arr.length; i++) {
       ul.innerHTML += `<li>${arr[i]}</li>`;
       
-  };
+  };*/
 
   function onInputPress() {
     ul.innerHTML = '';
